@@ -9,23 +9,38 @@ export type StringPattern = string | string[];
 export type NumberPattern = number | number[];
 
 /**
- * A playlist.
+ * A user.
  */
-export interface Playlist {
+export interface User {
+  /**
+   * Is the user verified?
+   */
+  verified: boolean;
+
   /**
    * The profile picture.
    */
-  profilePicture: StringPattern;
+  profilePicture: string;
 
   /**
    * The display name.
    */
-  displayName: StringPattern;
+  displayName: string;
 
   /**
    * The handle.
    */
-  handle: StringPattern;
+  handle: string;
+}
+
+/**
+ * A playlist.
+ */
+export interface Playlist {
+  /**
+   * The user.
+   */
+  user: User;
 
   /**
    * The text.

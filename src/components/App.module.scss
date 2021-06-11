@@ -1,0 +1,96 @@
+@font-face {
+  src: url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2");
+  font-family: SegoeUI;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2");
+  font-family: SegoeUI;
+  font-weight: 700;
+}
+
+.wrapper {
+  align-items: center;
+  background-color: #333;
+  display: flex;
+  fill: currentColor;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  height: 100vh;
+  padding: 20px;
+}
+
+.tweet {
+  background-color: #fff;
+  border-radius: 6px;
+  flex: 1;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.profilePicture {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5000px;
+  flex: none;
+  height: 48px;
+  margin-right: 10px;
+  width: 48px;
+}
+
+.headerInner {
+  align-self: center;
+  flex: 1;
+  line-height: 1.2;
+}
+
+.logo {
+  color: #1da1f2;
+  flex: none;
+  height: 24px;
+  width: 24px;
+}
+
+.displayName {
+  font-weight: 700;
+}
+
+.date,
+.footer,
+.handle {
+  color: #5b7083;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.date {
+  margin-top: 16px;
+}
+
+.footer {
+  border-top: 1px solid #c4cfd6;
+  display: flex;
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+
+  li {
+    align-items: center;
+    display: flex;
+    flex: none;
+    margin-right: 20px;
+  }
+
+  svg {
+    flex: none;
+    margin-right: 6px;
+    width: 20px;
+  }
+}

@@ -17,6 +17,7 @@
  * @property {StringPattern} text
  * @property {NumberPattern} retweets
  * @property {NumberPattern} likes
+ * @property {NumberPattern} replies
  */
 
 /**
@@ -48,6 +49,7 @@ window.settings = {
       text: "Phasellus at massa ac leo lacinia varius. Integer ut elit purus.",
       retweets: 123456,
       likes: 1234,
+      replies: 6985,
     },
     {
       profilePicture: "assets/9c556abd-a5b3-4be4-88b5-4803b4058daa.jpg",

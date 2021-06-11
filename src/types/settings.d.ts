@@ -41,6 +41,11 @@ export interface Playlist {
    * The likes count.
    */
   likes: NumberPattern;
+
+  /**
+   * The replies count.
+   */
+  replies: NumberPattern;
 }
 
 /**

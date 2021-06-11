@@ -1,6 +1,6 @@
 # cuic
 
-A visual widget for pseudo-randomly generating fake tweet highlights.
+A visual widget for generating pseudo-random fake tweet highlights.
 
 ## Table of Contents
 
